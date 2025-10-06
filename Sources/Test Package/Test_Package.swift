@@ -4,7 +4,7 @@
 
 public class TestClass {
     public init() {}
-    public func test() {
-        print("Testing TestClass test function")
+    public func test() -> String {
+        "Testing TestClass test function"
     }
 }
