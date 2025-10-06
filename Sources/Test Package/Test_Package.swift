@@ -3,7 +3,8 @@
 
 
 public class TestClass {
-    func test() {
+    public init() {}
+    public func test() {
         print("Testing TestClass test function")
     }
 }
