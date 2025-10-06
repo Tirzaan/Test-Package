@@ -11,6 +11,10 @@ let package = Package(
             name: "Test Package",
             targets: ["Test Package"]
         ),
+        .library(
+            name: "Test Multi",
+            targets: ["Test Multi Package"]
+        )
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -18,6 +22,10 @@ let package = Package(
         .target(
             name: "Test Package"
         ),
+        .target(
+            name: "Test Multi Package"
+        )
+        
 
     ]
 )
