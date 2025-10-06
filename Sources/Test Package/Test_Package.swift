@@ -2,7 +2,7 @@
 // https://docs.swift.org/swift-book
 
 
-class TestClass {
+public class TestClass {
     func test() {
         print("Testing TestClass test function")
     }
